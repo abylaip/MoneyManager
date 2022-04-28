@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		87CB03E85F7C2ADCB7C87CAC /* Pods_MoneyManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90DB8EB772950363B98E001 /* Pods_MoneyManager.framework */; };
 		F5CC6043281AD1E400AC1EB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CC6042281AD1E400AC1EB1 /* AppDelegate.swift */; };
 		F5CC6045281AD1E400AC1EB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CC6044281AD1E400AC1EB1 /* SceneDelegate.swift */; };
 		F5CC6047281AD1E400AC1EB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CC6046281AD1E400AC1EB1 /* ViewController.swift */; };
@@ -16,6 +17,9 @@
 		F5CC605A281AD1E600AC1EB1 /* MoneyManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CC6059281AD1E600AC1EB1 /* MoneyManagerTests.swift */; };
 		F5CC6064281AD1E600AC1EB1 /* MoneyManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CC6063281AD1E600AC1EB1 /* MoneyManagerUITests.swift */; };
 		F5CC6066281AD1E600AC1EB1 /* MoneyManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CC6065281AD1E600AC1EB1 /* MoneyManagerUITestsLaunchTests.swift */; };
+		F5CC6073281AE24200AC1EB1 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CC6072281AE24200AC1EB1 /* AddViewController.swift */; };
+		F5CC6075281AE27E00AC1EB1 /* SpendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CC6074281AE27E00AC1EB1 /* SpendTableViewCell.swift */; };
+		F5CC6077281AE82400AC1EB1 /* Spend.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CC6076281AE82400AC1EB1 /* Spend.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7CE2649C65168DDAC7177D9B /* Pods-MoneyManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyManager.release.xcconfig"; path = "Target Support Files/Pods-MoneyManager/Pods-MoneyManager.release.xcconfig"; sourceTree = "<group>"; };
+		B90DB8EB772950363B98E001 /* Pods_MoneyManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoneyManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13102EBAF6E7FEA0B42CA5E /* Pods-MoneyManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyManager.debug.xcconfig"; path = "Target Support Files/Pods-MoneyManager/Pods-MoneyManager.debug.xcconfig"; sourceTree = "<group>"; };
 		F5CC603F281AD1E400AC1EB1 /* MoneyManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5CC6042281AD1E400AC1EB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5CC6044281AD1E400AC1EB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,9 @@
 		F5CC605F281AD1E600AC1EB1 /* MoneyManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5CC6063281AD1E600AC1EB1 /* MoneyManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyManagerUITests.swift; sourceTree = "<group>"; };
 		F5CC6065281AD1E600AC1EB1 /* MoneyManagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyManagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F5CC6072281AE24200AC1EB1 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		F5CC6074281AE27E00AC1EB1 /* SpendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendTableViewCell.swift; sourceTree = "<group>"; };
+		F5CC6076281AE82400AC1EB1 /* Spend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spend.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87CB03E85F7C2ADCB7C87CAC /* Pods_MoneyManager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +87,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25493238F21A251B60AB371E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F13102EBAF6E7FEA0B42CA5E /* Pods-MoneyManager.debug.xcconfig */,
+				7CE2649C65168DDAC7177D9B /* Pods-MoneyManager.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C108F448BD7D28B9FD3B0F50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B90DB8EB772950363B98E001 /* Pods_MoneyManager.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F5CC6036281AD1E400AC1EB1 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +111,8 @@
 				F5CC6058281AD1E600AC1EB1 /* MoneyManagerTests */,
 				F5CC6062281AD1E600AC1EB1 /* MoneyManagerUITests */,
 				F5CC6040281AD1E400AC1EB1 /* Products */,
+				25493238F21A251B60AB371E /* Pods */,
+				C108F448BD7D28B9FD3B0F50 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +136,9 @@
 				F5CC604B281AD1E500AC1EB1 /* Assets.xcassets */,
 				F5CC604D281AD1E500AC1EB1 /* LaunchScreen.storyboard */,
 				F5CC6050281AD1E500AC1EB1 /* Info.plist */,
+				F5CC6072281AE24200AC1EB1 /* AddViewController.swift */,
+				F5CC6074281AE27E00AC1EB1 /* SpendTableViewCell.swift */,
+				F5CC6076281AE82400AC1EB1 /* Spend.swift */,
 			);
 			path = MoneyManager;
 			sourceTree = "<group>";
@@ -134,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5CC6069281AD1E600AC1EB1 /* Build configuration list for PBXNativeTarget "MoneyManager" */;
 			buildPhases = (
+				FA30F68105CF39339104B18A /* [CP] Check Pods Manifest.lock */,
 				F5CC603B281AD1E400AC1EB1 /* Sources */,
 				F5CC603C281AD1E400AC1EB1 /* Frameworks */,
 				F5CC603D281AD1E400AC1EB1 /* Resources */,
+				CF070FCC27381AE07591C656 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +288,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CF070FCC27381AE07591C656 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoneyManager/Pods-MoneyManager-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoneyManager/Pods-MoneyManager-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoneyManager/Pods-MoneyManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA30F68105CF39339104B18A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoneyManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F5CC603B281AD1E400AC1EB1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -260,7 +337,10 @@
 			files = (
 				F5CC6047281AD1E400AC1EB1 /* ViewController.swift in Sources */,
 				F5CC6043281AD1E400AC1EB1 /* AppDelegate.swift in Sources */,
+				F5CC6077281AE82400AC1EB1 /* Spend.swift in Sources */,
+				F5CC6073281AE24200AC1EB1 /* AddViewController.swift in Sources */,
 				F5CC6045281AD1E400AC1EB1 /* SceneDelegate.swift in Sources */,
+				F5CC6075281AE27E00AC1EB1 /* SpendTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +514,7 @@
 		};
 		F5CC606A281AD1E600AC1EB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F13102EBAF6E7FEA0B42CA5E /* Pods-MoneyManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -461,6 +542,7 @@
 		};
 		F5CC606B281AD1E600AC1EB1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CE2649C65168DDAC7177D9B /* Pods-MoneyManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
